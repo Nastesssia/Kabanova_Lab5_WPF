@@ -30,13 +30,13 @@ namespace Kabanova_Lab5_WPF
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             linear = new Linear(double.Parse(AL.Text), double.Parse(BL.Text));
-            RES1.Text = 
+            RES1.Text = linear.PrintResult();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             square = new Square(double.Parse(AS.Text), double.Parse(BS.Text), double.Parse(CS.Text));
-            RES2.Text = ;
+            RES2.Text = square.PrintResult();
         }
     }
 }
