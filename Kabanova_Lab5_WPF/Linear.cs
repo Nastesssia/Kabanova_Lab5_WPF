@@ -19,14 +19,14 @@ namespace Kabanova_Lab5_WPF
             B = b;
         }
 
-         string IRoot.PrintResult()
+         public string PrintResult()
          {
-            return Result2;
+            return Roots();
          }
 
-        void IRoot.Roots()
+        public string Roots()
         {
-            Result2 = (-B / A).ToString();
+            return (-B / A).ToString();
         }
     }
 }
