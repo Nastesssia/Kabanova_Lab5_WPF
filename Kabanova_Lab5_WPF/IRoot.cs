@@ -8,7 +8,7 @@ namespace Kabanova_Lab5_WPF
 {
     public interface IRoot
     {
-        public void Roots();
+        public string Roots();
         public string PrintResult();
     }
 }
